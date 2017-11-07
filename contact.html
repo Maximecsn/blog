@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Document sans nom</title>
+</head>
+
+<body>
+	<header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="list-articles.html">Ma liste d'articles</a></li>
+			<li><a href="contact.html">Contact</a></li>	
+		</ul>
+	</nav>
+	
+		<h1>Ma page contact</h1>
+		
+	</header>
+	
+	<section>
+		<form name="contact-form" action="contact-sample.php" method="post">
+			<label for="email-id">Entre ton email</label>
+			<input id="email-id" type="email" name="email" placeholder="Entre ton email">
+			<label for="sujet-id">Entre ton subject</label>
+			<input id="sujet-id" type="text" name="subject" placeholder="Entre ta question">
+			<div>
+			Entre ta question
+			<textarea name="question" cols="30" rows="4"></textarea>
+			</div>	
+			<div>
+			Veux tu une reponse rapide ?
+			<input type="radio" name="response" value="1">oui
+			<input type="radio" name="response" value="0">non 
+			</div>
+			
+			<button type="submit">Envoyer</button>
+		</form>
+	</section>
+	
+	<footer>
+	  <p>copyright 2017 - Le blog à momo</p>
+	</footer>
+	
+</body>
+</html>
